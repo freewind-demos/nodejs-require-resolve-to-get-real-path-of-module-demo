@@ -1,1 +1,2 @@
-console.log('Hello, NodeJS')
+const lodashPath = require.resolve('lodash')
+console.log(lodashPath)
